@@ -4,7 +4,7 @@ import About from '../components/About/About'
 import Total from '../components/Total/Total'
 import Pricing from '../components/Pricing/Pricing'
 import Contact from '../components/contact/Contact'
-import Footer from '../components/footer/footer'
+import Footer from '../components/footer/Footer'
 
 const Home = () => {
     return (
