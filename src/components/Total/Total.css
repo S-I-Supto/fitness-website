@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.img {
+    width: 100vw;
+    height: 200px;
+    background: url('../../assets/Images/totalNumber.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    z-index: -5;
+}
+
+@media screen and (max-width: 900px) {
+    .img {
+        height: 160px;
+    }
+}

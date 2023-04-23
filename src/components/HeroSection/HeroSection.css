@@ -1,0 +1,10 @@
+.red-text {
+    color: #FC1503
+}
+
+
+@media screen and (max-width: 900px) {
+    .red-text {
+        color: #fff;
+    }
+}

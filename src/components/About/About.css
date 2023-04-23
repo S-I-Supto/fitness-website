@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.AboutImg {
+    height: 600px;
+    width: 600px;
+}
+
+.red-color-text {
+    color: #FC0303;
+}
+
+@media screen and (max-width:729px) {
+    .AboutImg {
+        width: 551px;
+        height: 551px;
+    }
+}
+
+@media screen and (max-width: 660px) {
+    .AboutImg {
+        width: 342px;
+        height: 342px;
+    }
+
+}

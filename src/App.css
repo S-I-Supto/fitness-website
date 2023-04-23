@@ -1,0 +1,32 @@
+.hero-image {
+    background-image: url(./assets/Images/Banner.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    background-color: #272727;
+    z-index: -2;
+}
+
+@media screen and (max-width: 900px) {
+    .hero-image {
+        filter: blur(3px);
+    }
+}
+
+.flex {
+    display: flex;
+}
+
+
+.navItem-hover {
+    border-radius: 2px;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: all 0.3s linear;
+}
+
+.navItem-hover:hover {
+    background-color: #FC1503;
+}

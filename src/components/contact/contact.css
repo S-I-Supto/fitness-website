@@ -1,0 +1,21 @@
+a {
+    text-decoration: none;
+    color: white;
+    letter-spacing: 1.1px;
+    font-family: TT-medium-italic;
+}
+
+.contact-button {
+    padding: 12px 20px;
+    /* max-width: 120px; */
+    font-size: 24px;
+    border: none;
+    outline: none;
+    background: #FC1503;
+    transition: all 0.4s;
+    border-radius: 2px;
+}
+
+button:hover {
+    background: #A93226;
+}
