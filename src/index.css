@@ -6,45 +6,7 @@
   box-sizing: border-box;
 }
 
-@font-face {
-  font-family: TT-bold-italic;
-  src: url(../src/assets/fonts/TT\ Norms\ Pro\ Bold\ Italic.otf);
-}
 
-@font-face {
-  font-family: TT-extraBold-italic;
-  src: url(../src/assets/fonts/TT\ Norms\ Pro\ ExtraBold\ Italic.otf);
-}
-
-@font-face {
-  font-family: TT-italic;
-  src: url(../src/assets/fonts/TT\ Norms\ Pro\ Italic.otf);
-}
-
-@font-face {
-  font-family: TT-medium-italic;
-  src: url(../src/assets/fonts/TT\ Norms\ Pro\ Medium\ Italic.otf);
-}
-
-@font-face {
-  font-family: Cera-black-italic;
-  src: url(../src/assets/fonts/Cera\ Pro\ Black\ Italic.otf);
-}
-
-@font-face {
-  font-family: Cera-black;
-  src: url(../src/assets/fonts/Cera\ Pro\ Black.otf);
-}
-
-@font-face {
-  font-family: Cera-light;
-  src: url(../src/assets/fonts/Cera\ Pro\ Light.otf);
-}
-
-@font-face {
-  font-family: Cera-medium;
-  src: url(../src/assets/fonts/Cera\ Pro\ Medium.otf);
-}
 
 .TT-bold-italic {
   font-family: TT-bold-italic;
