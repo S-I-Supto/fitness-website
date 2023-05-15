@@ -10,7 +10,7 @@ export let TotalData = [
     },
     {
         count: 1216,
-        subject: 'Happy Clients'
+        subject: `Happy clients`
     }
 ];
 

@@ -15,7 +15,7 @@ const Total = () => {
                 <Stack direction={'row'} height={'100%'} padding={'8px'}>
                     {TotalData.map((item, index) => (
                         <Stack key={index} direction={'column'} sx={{ flex: 1, color: 'white' }} alignItems={'center'} justifyContent={'center'}>
-                            <Typography id='counter' sx={{ fontSize: { xs: '40px', md: '90px' } }}>
+                            <Typography id='counter' sx={{ fontSize: { xs: '40px', md: '90px' }, }}>
 
                                 {/* to enable counter while the element comes in view use enableScrollSpy,scrollSpyDelay */}
                                 {/*if you want to delay then use the prop: scrollSpyDelay={1000} */}
@@ -23,7 +23,7 @@ const Total = () => {
                                 <CountUp end={item.count} duration={2} enableScrollSpy={true} />
                             </Typography>
 
-                            <Typography sx={{ fontSize: { xs: '18px', md: '26px' }, letterSpacing: '1.1px', fontFamily: 'Cera-light', textAlign: 'center' }}>
+                            <Typography sx={{ fontSize: { xs: '18px', md: '26px' }, letterSpacing: '1.1px', fontFamily: 'Poppins', textAlign: 'center', padding: { xs: "0 10px", md: "0" } }}>
                                 {item.subject}
                             </Typography>
                         </Stack>
