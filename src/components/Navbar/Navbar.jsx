@@ -25,7 +25,7 @@ const Navbar = () => {
         <>
             <div className={`content flex`} style={{ backgroundColor: `${scrollYValue > 0 ? 'black' : ''}` }}>
                 <div className="left-side flex">
-                    <div className="logo TT-extraBold-italic">FitClub</div>
+                    <div className='logo'>FitClub</div>
                     <ul className={`nav-items flex ${statement ? "active" : ''}`}>
                         <li className='nav-item'><a onClick={() => {
                             window.scroll({

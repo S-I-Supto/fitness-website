@@ -13,7 +13,7 @@ li>a {
     color: #fff;
     font-family: 'Poppins';
     font-size: 18px;
-    font-weight: 300;
+    font-weight: 200;
     cursor: pointer;
 }
 
@@ -38,9 +38,12 @@ li>a {
 }
 
 .logo {
-    font-size: 40px;
+    font-size: 35px;
     letter-spacing: 0.1em;
     color: #FC1503;
+    font-family: "Montserrat";
+    font-style: italic;
+    font-weight: 900;
 }
 
 ul {

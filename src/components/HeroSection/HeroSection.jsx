@@ -1,5 +1,4 @@
 import React from 'react'
-import { Stack } from '@mui/system'
 import { Box, Typography, Button } from '@mui/material'
 import { motion } from "framer-motion";
 import { leftStyle, Parent } from '../motion';
