@@ -6,40 +6,6 @@
   box-sizing: border-box;
 }
 
-
-
-.TT-bold-italic {
-  font-family: TT-bold-italic;
-}
-
-.TT-extraBold-italic {
-  font-family: TT-extraBold-italic;
-}
-
-.TT-italic {
-  font-family: TT-italic;
-}
-
-.TT-medium-italic {
-  font-family: TT-medium-italic;
-}
-
-.Cera-black-italic {
-  font-family: Cera-black-italic;
-}
-
-.Cera-black {
-  font-family: Cera-black;
-}
-
-.Cera-light {
-  font-family: Cera-light;
-}
-
-.Cera-medium {
-  font-family: Cera-medium;
-}
-
 ::-webkit-scrollbar {
   width: 10px;
 }
